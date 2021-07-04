@@ -52,7 +52,7 @@ async def amireallyalive(event):
         cat_caption += f"**╰❥ userbot Version :** `{catversion}`\n"
         cat_caption += f"**╰❥ Python Version :** `{python_version()}\n`"
         cat_caption += f"**╰❥ Uptime :** `{uptime}\n`"
-        cat_caption += f"**╰❥ Masterツ:** {mention}\n"
+        cat_caption += f"**╰❥ Masterツ:** {mention}\n\n""**✽┄┄┉┉✽̶🌹✿🌹✽┉┉┄┄✽**\n"
              
         try:
             await event.client.send_file(
@@ -73,7 +73,7 @@ async def amireallyalive(event):
             f"**╰❥Catuserbot Version :** `{catversion}`\n"
             f"**╰❥Python Version :** `{python_version()}\n`"
             f"**╰❥Uptime :** `{uptime}\n`"
-            f"**╰❥Master:** {mention}\n",
+            f"**╰❥Master:** {mention}\n\n""**✽┄┄┉┉✽̶🌹✿🌹✽┉┉┄┄✽**\n"
 
         )
 
