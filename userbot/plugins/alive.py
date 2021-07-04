@@ -53,7 +53,7 @@ async def amireallyalive(event):
         cat_caption += f"**╰❥ Python Version :** `{python_version()}\n`"
         cat_caption += f"**╰❥ Uptime :** `{uptime}\n`"
         cat_caption += f"**╰❥ Masterツ:** {mention}\n"
-                      "✽┄┄┉┉✽̶🌹✿🌹✽┉┉┄┄✽\n"
+             
         try:
             await event.client.send_file(
                 event.chat_id, PIC, caption=cat_caption, reply_to=reply_to_id
@@ -73,8 +73,8 @@ async def amireallyalive(event):
             f"**╰❥Catuserbot Version :** `{catversion}`\n"
             f"**╰❥Python Version :** `{python_version()}\n`"
             f"**╰❥Uptime :** `{uptime}\n`"
-            f"**╰❥Master:** {mention}\n"
-            "✽┄┄┉┉✽̶🌹✿🌹✽┉┉┄┄✽\n",
+            f"**╰❥Master:** {mention}\n",
+
         )
 
 
